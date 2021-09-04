@@ -259,13 +259,13 @@
     (add-hook 'term-mode-hook 'ansi-term-handle-close)
 
     (spacemacs/set-leader-keys
-      "'"   'spacemacs/default-pop-shell
+      ;; "'"   'spacemacs/default-pop-shell
       "atse" 'spacemacs/shell-pop-eshell
       "atsi" 'spacemacs/shell-pop-inferior-shell
       "atsm" 'spacemacs/shell-pop-multiterm
       "atst" 'spacemacs/shell-pop-ansi-term
       "atsT" 'spacemacs/shell-pop-term)
-    (spacemacs/declare-prefix "'" "open shell")
+    ;; (spacemacs/declare-prefix "'" "open shell")
     :config
     (add-hook 'shell-pop-out-hook #'spacemacs//shell-pop-restore-window)))
 
