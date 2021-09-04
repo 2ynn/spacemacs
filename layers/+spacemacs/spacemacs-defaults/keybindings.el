@@ -152,7 +152,7 @@
 (spacemacs|spacebind
  "Operations on rectangular selections of text."
  :global
- (("K" "Keyboard Macros"
+ (("Q" "Keyboard Macros"
    ("c" "Counter"
     ("a" kmacro-add-counter "Increment counter")
     ("c" kmacro-insert-counter "Insert counter")
