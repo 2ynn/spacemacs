@@ -80,6 +80,7 @@
       "cb" 'elm-compile-buffer
       "cB" 'spacemacs/elm-compile-buffer-output
       "cm" 'elm-compile-main
+      ","  'elm-compile-main
       ;; reactor
       "Rn" 'elm-preview-buffer
       "Rm" 'elm-preview-main
