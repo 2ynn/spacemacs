@@ -25,7 +25,7 @@
   "Toggle and add the current project to treemacs if not already added."
   (interactive)
   (if (eq (treemacs-current-visibility) 'visible)
-      (delete-window (treemacs-get-local-window))
+      ;;(delete-window (treemacs-get-local-window))
     (let ((path (projectile-ensure-project (projectile-project-root)))
           (name (projectile-project-name)))
       (unless (treemacs-current-workspace)
